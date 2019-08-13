@@ -2,9 +2,9 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'JAMstack Hackathon Starter',
-    description: `Kick off your next, great Gatsby app.`,
-    author: `@swyx`,
+    title: 'Virsa',
+    description: `Celebrating Global Heritage - Passing Down Traditions`,
+    author: `@dhruvgami`,
   },
 
   // for avoiding CORS while developing Netlify Functions locally
