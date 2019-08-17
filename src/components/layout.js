@@ -20,7 +20,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div
+        <div class="section-container" 
           style={{
             margin: `0 auto`,
             maxWidth: 960,
