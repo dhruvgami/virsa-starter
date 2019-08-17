@@ -22,7 +22,7 @@ const App = () => {
   )
 }
 function PublicRoute(props) {
-  return <div>{props.children}</div>
+  return <div class="wrapper">{props.children}</div>
 }
 
 export default App
