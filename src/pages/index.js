@@ -39,6 +39,17 @@ class IndexPage extends React.Component {
                   </div>
                </div>
             </div>
+        </div>
+{/*
+        <div class="content-wrapper">
+            <div class="content-heading">
+               <div>Celebrating Global Heritage<small>Passing down traditions!</small></div>
+               <div class="ml-auto">
+                  <div class="btn-group"><button class="btn btn-secondary dropdown-toggle dropdown-toggle-nocaret" type="button" data-toggle="dropdown">English</button>
+                     <div class="dropdown-menu dropdown-menu-right-forced animated fadeInUpShort" role="menu"><a class="dropdown-item" href="#" data-set-lang="en">English</a><a class="dropdown-item" href="#" data-set-lang="es">Spanish</a></div>
+                  </div>
+               </div>
+            </div>
 
          
          
@@ -235,7 +246,7 @@ class IndexPage extends React.Component {
                               </div>  
                         </div>
                </div>
- 
+ */}
             </div>
           <div>
             <p>
