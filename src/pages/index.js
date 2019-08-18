@@ -32,17 +32,16 @@ class IndexPage extends React.Component {
         >
         <div class="content-wrapper">
             <div class="content-heading">
-               <div>Celebrating Global Heritage<small data-localize="dashboard.WELCOME">Passing down traditions!</small></div><!-- START Language list-->
+               <div>Celebrating Global Heritage<small>Passing down traditions!</small></div>
                <div class="ml-auto">
                   <div class="btn-group"><button class="btn btn-secondary dropdown-toggle dropdown-toggle-nocaret" type="button" data-toggle="dropdown">English</button>
                      <div class="dropdown-menu dropdown-menu-right-forced animated fadeInUpShort" role="menu"><a class="dropdown-item" href="#" data-set-lang="en">English</a><a class="dropdown-item" href="#" data-set-lang="es">Spanish</a></div>
                   </div>
-               </div><!-- END Language list-->
-            </div><!-- START cards box-->
-<!-- END cards box-->
+               </div>
+            </div>
+
          
          
-               <!-- START dashboard main content-->
                <div class="col-xl-12">
                      <h3>Recently Added</h3>
 
@@ -59,7 +58,7 @@ class IndexPage extends React.Component {
                               </div>
                               <div class="card-body">
                                  <div class="d-flex align-items-center">
-                                    <img class="card-image" src="img/music/cincodemayo.png" alt="cinco de mayo">
+                                    <img class="card-image" src="img/music/cincodemayo.png" alt="cinco de mayo" />
                                  </div>
                               </div>
                               <table class="table">
@@ -93,7 +92,7 @@ class IndexPage extends React.Component {
                                  </div>
                                  <div class="card-body">
                                     <div class="d-flex align-items-center">
-                                       <img class="card-image" src="img/festivals/cincodemayo.jpg" alt="cinco de mayo">
+                                       <img class="card-image" src="img/festivals/cincodemayo.jpg" alt="cinco de mayo" />
                                     </div>
                                  </div>
                                  <table class="table">
@@ -104,11 +103,11 @@ class IndexPage extends React.Component {
                                        </tr>
                                        <tr>
                                           <td><strong> Regions celebrated in</strong></td>
-                                          <td><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/countries/mx.png" alt="mexico"></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/countries/us.jpg" alt="project member"></a><a class="inline" href="#"><strong>+5</strong></a></td>
+                                          <td><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/countries/mx.png" alt="mexico" /></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/countries/us.jpg" alt="project member"/></a><a class="inline" href="#"><strong>+5</strong></a></td>
                                        </tr>
                                        <tr>
                                           <td><strong> Celebrated by</strong></td>
-                                          <td><a href="" data-toggle="tooltip" data-title="Team leader" data-original-title="" title=""><img class="rounded-circle thumb24" src="img/user/03.jpg" alt="project member"></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/user/02.jpg" alt="project member"></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/user/01.jpg" alt="project member"></a><a class="inline" href="#"><strong>&nbsp;+ 1,389</strong></a></td>
+                                          <td><a href="" data-toggle="tooltip" data-title="Team leader" data-original-title="" title=""><img class="rounded-circle thumb24" src="img/user/03.jpg" alt="project member"/></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/user/02.jpg" alt="project member"/></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/user/01.jpg" alt="project member"/></a><a class="inline" href="#"><strong>&nbsp;+ 1,389</strong></a></td>
                                        </tr>
                                        <tr>
                                           <td><strong>Related content</strong></td>
@@ -150,7 +149,7 @@ class IndexPage extends React.Component {
                                     </div>
                                     <div class="card-body">
                                        <div class="d-flex align-items-center">
-                                          <img class="card-image" src="img/festivals/ramadan.jpg" alt="Diwali">
+                                          <img class="card-image" src="img/festivals/ramadan.jpg" alt="Diwali"/>
                                        </div>
                                     </div>
                                     <table class="table">
@@ -161,11 +160,11 @@ class IndexPage extends React.Component {
                                           </tr>
                                           <tr>
                                              <td><strong> Regions celebrated in</strong></td>
-                                             <td><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/countries/in.png" alt="mexico"></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/countries/us.jpg" alt="project member"></a><a class="inline" href="#"><strong>+25</strong></a></td>
+                                             <td><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/countries/in.png" alt="mexico"/></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/countries/us.jpg" alt="project member"/></a><a class="inline" href="#"><strong>+25</strong></a></td>
                                           </tr>
                                           <tr>
                                              <td><strong> Celebrated by</strong></td>
-                                             <td><a href="" data-toggle="tooltip" data-title="Team leader" data-original-title="" title=""><img class="rounded-circle thumb24" src="img/user/03.jpg" alt="project member"></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/user/02.jpg" alt="project member"></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/user/01.jpg" alt="project member"></a><a class="inline" href="#"><strong>&nbsp;+ 8,182</strong></a></td>
+                                             <td><a href="" data-toggle="tooltip" data-title="Team leader" data-original-title="" title=""><img class="rounded-circle thumb24" src="img/user/03.jpg" alt="project member"/></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/user/02.jpg" alt="project member"/></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/user/01.jpg" alt="project member"/></a><a class="inline" href="#"><strong>&nbsp;+ 8,182</strong></a></td>
                                           </tr>
                                           <tr>
                                              <td><strong>Related content</strong></td>
@@ -192,7 +191,7 @@ class IndexPage extends React.Component {
                                        </div>
                                        <div class="card-body">
                                           <div class="d-flex align-items-center">
-                                             <img class="card-image" src="img/festivals/diwali.jpg" alt="Diwali">
+                                             <img class="card-image" src="img/festivals/diwali.jpg" alt="Diwali"/>
                                           </div>
                                        </div>
                                        <table class="table">
@@ -203,11 +202,11 @@ class IndexPage extends React.Component {
                                              </tr>
                                              <tr>
                                                 <td><strong> Regions celebrated in</strong></td>
-                                                <td><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/countries/in.png" alt="mexico"></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/countries/us.jpg" alt="project member"></a><a class="inline" href="#"><strong>+25</strong></a></td>
+                                                <td><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/countries/in.png" alt="mexico"/></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/countries/us.jpg" alt="project member"/></a><a class="inline" href="#"><strong>+25</strong></a></td>
                                              </tr>
                                              <tr>
                                                 <td><strong> Celebrated by</strong></td>
-                                                <td><a href="" data-toggle="tooltip" data-title="Team leader" data-original-title="" title=""><img class="rounded-circle thumb24" src="img/user/03.jpg" alt="project member"></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/user/02.jpg" alt="project member"></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/user/01.jpg" alt="project member"></a><a class="inline" href="#"><strong>&nbsp;+ 8,182</strong></a></td>
+                                                <td><a href="" data-toggle="tooltip" data-title="Team leader" data-original-title="" title=""><img class="rounded-circle thumb24" src="img/user/03.jpg" alt="project member"/></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/user/02.jpg" alt="project member"/></a><a class="inline" href="#"><img class="rounded-circle thumb24" src="img/user/01.jpg" alt="project member"/></a><a class="inline" href="#"><strong>&nbsp;+ 8,182</strong></a></td>
                                              </tr>
                                              <tr>
                                                 <td><strong>Related content</strong></td>
@@ -235,71 +234,7 @@ class IndexPage extends React.Component {
                                  </div>
                               </div>  
                         </div>
-                  <!--
-                  <div class="row">
-                     
-                     <div class="col-xl-12">
-                        <div class="card card-default">
-                           <div class="card-header">
-                              <div class="px-2 float-right badge badge-danger">5</div>
-                              <div class="px-2 mr-2 float-right badge badge-success">12</div>
-                              <div class="card-title">Team messages</div>
-                           </div>
-                           <div class="list-group" data-height="180" data-scrollable="">
-                              
-                              <div class="list-group-item list-group-item-action">
-                                 <div class="media"><img class="align-self-start mx-2 circle thumb32" src="img/user/02.jpg" alt="Image">
-                                    <div class="media-body text-truncate">
-                                       <p class="mb-1"><strong class="text-primary"><span class="circle bg-success circle-lg text-left"></span><span>Catherine Ellis</span></strong></p>
-                                       <p class="mb-1 text-sm">Cras sit amet nibh libero, in gravida nulla. Nulla...</p>
-                                    </div>
-                                    <div class="ml-auto"><small class="text-muted ml-2">2h</small></div>
-                                 </div>
-                              </div>
-                              <div class="list-group-item list-group-item-action">
-                                 <div class="media"><img class="align-self-start mx-2 circle thumb32" src="img/user/03.jpg" alt="Image">
-                                    <div class="media-body text-truncate">
-                                       <p class="mb-1"><strong class="text-primary"><span class="circle bg-success circle-lg text-left"></span><span>Jessica Silva</span></strong></p>
-                                       <p class="mb-1 text-sm">Cras sit amet nibh libero, in gravida nulla. Nulla...</p>
-                                    </div>
-                                    <div class="ml-auto"><small class="text-muted ml-2">3h</small></div>
-                                 </div>
-                              </div>
-                              <div class="list-group-item list-group-item-action">
-                                 <div class="media"><img class="align-self-start mx-2 circle thumb32" src="img/user/09.jpg" alt="Image">
-                                    <div class="media-body text-truncate">
-                                       <p class="mb-1"><strong class="text-primary"><span class="circle bg-danger circle-lg text-left"></span><span>Jessie Wells</span></strong></p>
-                                       <p class="mb-1 text-sm">Cras sit amet nibh libero, in gravida nulla. Nulla...</p>
-                                    </div>
-                                    <div class="ml-auto"><small class="text-muted ml-2">4h</small></div>
-                                 </div>
-                              </div>
-                              <div class="list-group-item list-group-item-action">
-                                 <div class="media"><img class="align-self-start mx-2 circle thumb32" src="img/user/12.jpg" alt="Image">
-                                    <div class="media-body text-truncate">
-                                       <p class="mb-1"><strong class="text-primary"><span class="circle bg-danger circle-lg text-left"></span><span>Rosa Burke</span></strong></p>
-                                       <p class="mb-1 text-sm">Cras sit amet nibh libero, in gravida nulla. Nulla...</p>
-                                    </div>
-                                    <div class="ml-auto"><small class="text-muted ml-2"> 1d</small></div>
-                                 </div>
-                              </div>
-                              <div class="list-group-item list-group-item-action">
-                                 <div class="media"><img class="align-self-start mx-2 circle thumb32" src="img/user/10.jpg" alt="Image">
-                                    <div class="media-body text-truncate">
-                                       <p class="mb-1"><strong class="text-primary"><span class="circle bg-danger circle-lg text-left"></span><span>Michelle Lane</span></strong></p>
-                                       <p class="mb-1 text-sm">Mauris eleifend, libero nec cursus lacinia...</p>
-                                    </div>
-                                    <div class="ml-auto"><small class="text-muted ml-2"> 2d</small></div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="card-footer">
-                              <div class="input-group"><input class="form-control form-control-sm" type="text" placeholder="Search message .."><span class="input-group-btn"><button class="btn btn-secondary btn-sm" type="submit"><i class="fa fa-search"></i></button></span></div>
-                           </div>
-                        </div>
-                     </div>
-                  </div> -->
-               </div><!-- END dashboard main content-->
+               </div>
  
             </div>
           <div>
