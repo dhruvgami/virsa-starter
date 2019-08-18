@@ -246,8 +246,9 @@ class IndexPage extends React.Component {
                               </div>  
                         </div>
                </div>
- */}
+ 
             </div>
+ */}
           <div>
             <p>
               Welcome to your new Gatsby + Netlify Functions + Netlify Identity
