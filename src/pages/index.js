@@ -136,7 +136,7 @@ class IndexPage extends React.Component {
                              <div class="card b">
                                 
                                 <div class="card-body">
-                                   <div class="d-flex align-items-center card-footer" style="height: 160px; justify-content: center;">
+                                   <div class="d-flex align-items-center card-footer" style={{height: '160px', justify-content: 'center'}}>
                                          <button class="btn btn-secondary" type="button"><a href="festivals.html">+16 More</a></button>
                                    </div>
                                 </div>
