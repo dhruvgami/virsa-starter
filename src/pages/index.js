@@ -76,7 +76,7 @@ class IndexPage extends React.Component {
                                 </tr>
                              </tbody>
                           </table>
-                          <div class="card-footer text-center"><button class="btn btn-secondary" type="button"><a href="festival-cincodemayo.html">More details</a></button></div>
+                          <div class="card-footer text-center"><button class="btn btn-secondary" type="button"><a href="./festival/index">More details</a></button></div>
                        </div>
      
                     </div>

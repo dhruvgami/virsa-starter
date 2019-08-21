@@ -13,6 +13,7 @@ const App = () => {
       <NavBar />
       <Router>
         <PrivateRoute path="/app/profile" component={Profile} />
+        <PublicRoute path="/festival" />
         <PublicRoute path="/app">
           <PrivateRoute path="/" component={Main} />
           <Login path="/login" />
